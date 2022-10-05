@@ -1,0 +1,15 @@
+volumes:
+  sakila-db-vol:
+
+services:
+
+  db:
+    build: 
+      context: .
+    image: mysql:5.7.39
+    environment:
+      MYSQL_ROOT_PASSWORD: "root"
+    ports:
+      - 3306:3306
+    volumes:
+      - sakila-db-vol:/var/lib/mysql
