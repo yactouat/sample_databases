@@ -4,7 +4,7 @@ volumes:
 services:
 
   db:
-    image: mcr.microsoft.com/mssql/server:2019-latest 
+    image: mcr.microsoft.com/mssql/server:2019-latest
     environment:
       ACCEPT_EULA: 'Y'
       MSSQL_PID: 'Express'
