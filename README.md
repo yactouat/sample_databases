@@ -12,6 +12,10 @@ As a good practice, if you're building an app' on top of one the test databases,
 
 ## databases
 
+### a generic dockerized SQL Server Express 2019 database instance
+
+- you can connect with MSSMS, or any other tool, using login/password auth (the root username would be `sa`)
+
 ### Sakila
 
 This database implements the data structure of a DVD rental store (quite vintage huh ?).

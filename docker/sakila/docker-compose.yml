@@ -4,8 +4,6 @@ volumes:
 services:
 
   db:
-    build: 
-      context: .
     image: mysql:5.7.39
     environment:
       MYSQL_ROOT_PASSWORD: "root"
